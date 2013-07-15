@@ -31,7 +31,7 @@ loops
 hash
 ----
 
-	person = {
+	type person struct {
 		"name": "andrews",
 		"age": 28,
 	}
@@ -44,7 +44,7 @@ list
 methods
 -------
 
-	person = {
+	type person struct {
 		"name": "andrews",
 		"age": 28,
 	}
@@ -56,7 +56,7 @@ methods
 interfaces
 ----------
 
-	interface Stringer {
+	type Stringer interface {
 		String()
 	}
 
