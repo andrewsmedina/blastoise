@@ -40,3 +40,15 @@ list
 ----
 
 	numbers = [1, 2, 3]
+
+methods
+-------
+
+	person = {
+		"name": "andrews",
+		"age": 28,
+	}
+
+	func (p person) says() {
+		return p.name + " says hello"
+	}
