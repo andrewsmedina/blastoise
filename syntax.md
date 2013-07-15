@@ -52,3 +52,11 @@ methods
 	func (p person) says() {
 		return p.name + " says hello"
 	}
+
+interfaces
+----------
+
+	interface Stringer {
+		String()
+	}
+
