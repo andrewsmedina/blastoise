@@ -27,3 +27,11 @@ loops
 		text = read()
 		print text
 	}
+
+hash
+----
+
+	person = {
+		"name": "andrews",
+		"age": 28,
+	}
