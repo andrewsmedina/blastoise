@@ -35,3 +35,8 @@ hash
 		"name": "andrews",
 		"age": 28,
 	}
+
+list
+----
+
+	numbers = [1, 2, 3]
